@@ -56,13 +56,17 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
+  # Enable the Plasma Desktop Environment.
+  services.xserver.displayManager.sddm.enable = true;
+  services.xserver.desktopManager.plasma5.enable = true;
+
   # Enable the GNOME Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
-  services.gnome.core-utilities.enable = false;
-  services.gnome.tracker-miners.enable = false;
-  services.gnome.tracker.enable = false;
-  environment.gnome.excludePackages = [ pkgs.gnome-tour ];
+  #services.xserver.displayManager.gdm.enable = true;
+  #services.xserver.desktopManager.gnome.enable = true;
+  #services.gnome.core-utilities.enable = false;
+  #services.gnome.tracker-miners.enable = false;
+  #services.gnome.tracker.enable = false;
+  #environment.gnome.excludePackages = [ pkgs.gnome-tour ];
 
   # Configure keymap in X11
   services.xserver = {
