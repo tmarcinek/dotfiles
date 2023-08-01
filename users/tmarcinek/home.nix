@@ -102,15 +102,15 @@
    wordnet
    xclip
    zathura 
-   #gnome.nautilus
-   #gnome.gnome-tweaks
-   #gnome.dconf-editor
-   #gnome.gnome-font-viewer
-   #gnome.gnome-disk-utility
-   #gnome.gnome-system-monitor
-   #gnomeExtensions.battery-time-2
-   #gnomeExtensions.caffeine
-   #gnomeExtensions.useless-gaps
+   gnome.nautilus
+   gnome.gnome-tweaks
+   gnome.dconf-editor
+   gnome.gnome-font-viewer
+   gnome.gnome-disk-utility
+   gnome.gnome-system-monitor
+   gnomeExtensions.battery-time-2
+   gnomeExtensions.caffeine
+   gnomeExtensions.useless-gaps
 
   ];
 
