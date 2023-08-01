@@ -62,6 +62,7 @@
    evince 
    fbida
    foliate
+   git
    git-crypt
    ghostscript
    gnupg

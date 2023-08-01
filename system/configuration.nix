@@ -7,7 +7,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-       <nixos-hardware/lenovo/thinkpad/x280>
+      # <nixos-hardware/lenovo/thinkpad/x280>
        ./hardware-configuration.nix
     ];
 
@@ -129,7 +129,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-
+    git
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
